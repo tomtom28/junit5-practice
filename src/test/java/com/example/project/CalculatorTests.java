@@ -10,13 +10,12 @@
 
 package com.example.project;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
-
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 
 @DisplayName("Calculator")
@@ -117,6 +116,7 @@ class CalculatorTests {
 		void divideOneByZero() {
 			Calculator calculator = new Calculator();
 			// TODO: How do you think we can test this?
+//			assertThrows(Arthimatic.class, )
 		}
 
 	}
